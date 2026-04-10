@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato — Fernando Bacchiet</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="../index.html">FB</a>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="curriculo.html">Currículo</a></li>
+    <li><a href="github.html">GitHub</a></li>
+    <li><a href="servicos.html">Serviços</a></li>
+    <li><a href="contato.html" class="ativo">Contato</a></li>
+  </ul>
+</nav>
+
+<div class="cabecalho">
+  <h1>Contato</h1>
+  <p>Preencha o formulário e enviarei uma proposta personalizada</p>
+</div>
+
+<div class="divisor"></div>
+
+<section class="secao">
+  <div class="grade-contato">
+
+    <!-- INFORMAÇÕES -->
+    <div class="card">
+      <h3>Informações de Contato</h3>
+
+      <div class="info-contato-item">
+        <div class="icone-contato">📧</div>
+        <div>
+          <div class="rotulo">E-mail</div>
+          <div class="valor">antonio.bacchiet@gmail.com</div>
+        </div>
+      </div>
+
+      <div class="info-contato-item">
+        <div class="icone-contato">📱</div>
+        <div>
+          <div class="rotulo">WhatsApp</div>
+          <div class="valor">(27) 99755-1730</div>
+        </div>
+      </div>
+
+      <div class="info-contato-item">
+        <div class="icone-contato">🌐</div>
+        <div>
+          <div class="rotulo">GitHub</div>
+          <a href="https://github.com/antoniobacchiet-eng/landing-page-uvv-fernando-antonio" target="_blank">github.com/antoniobacchiet-eng</a>
+        </div>
+      </div>
+
+      <div class="divisor" style="margin: 16px 0;"></div>
+
+      <div style="color: #c8a8d8; font-size: 0.85rem; line-height: 2;">
+        <strong style="color: #9a7aaa; font-size: 0.72rem; font-family: monospace; text-transform: uppercase;">Horário de Atendimento</strong><br>
+        📅 Seg a Sex: 18h–22h<br>
+        📅 Sábados: 09h–17h<br>
+        🚫 Domingos: fechado
+      </div>
+
+      <div style="margin-top: 16px; display: flex; gap: 10px; flex-wrap: wrap;">
+        <a class="btn" href="https://github.com/antoniobacchiet-eng/landing-page-uvv-fernando-antonio" target="_blank">GitHub</a>
+        <a class="btn outline" href="servicos.html">Ver Serviços</a>
+      </div>
+    </div>
+
+    <!-- FORMULÁRIO -->
+    <div class="card">
+      <h3 style="margin-bottom: 20px;">Formulário de Contato</h3>
+
+      <div class="linha-form">
+        <div class="form-grupo">
+          <label>Nome Completo <span class="obrigatorio">*</span></label>
+          <input type="text" id="nome" placeholder="Seu nome completo" />
+        </div>
+        <div class="form-grupo">
+          <label>Telefone / WhatsApp <span class="obrigatorio">*</span></label>
+          <input type="tel" id="telefone" placeholder="(XX) 99999-9999" />
+        </div>
+      </div>
+
+      <div class="form-grupo">
+        <label>E-mail <span class="obrigatorio">*</span></label>
+        <input type="email" id="email" placeholder="seu@email.com" />
+      </div>
+
+      <div class="form-grupo">
+        <label>Tipo de Pessoa <span class="obrigatorio">*</span></label>
+        <div class="radio-grupo">
+          <label><input type="radio" name="tipo_pessoa" value="fisica" checked /> Pessoa Física</label>
+          <label><input type="radio" name="tipo_pessoa" value="juridica" /> Pessoa Jurídica</label>
+        </div>
+      </div>
+
+      <div class="form-grupo">
+        <label>Melhor Horário para Contato <span class="obrigatorio">*</span></label>
+        <select id="horario">
+          <option value="">Selecione um horário...</option>
+          <option value="manha">Manhã (08h–12h)</option>
+          <option value="tarde">Tarde (12h–17h)</option>
+          <option value="noite">Noite (18h–22h)</option>
+          <option value="qualquer">Qualquer horário</option>
+        </select>
+      </div>
+
+      <div class="form-grupo">
+        <label>Tipo de Serviço Desejado <span class="obrigatorio">*</span></label>
+        <select id="servico">
+          <option value="">Selecione um serviço...</option>
+          <option value="basico">Site Básico (1–2 páginas) — R$ 120</option>
+          <option value="intermediario">Site Intermediário (3–5 páginas) — R$ 250</option>
+          <option value="completo">Site Completo (5+ páginas) — R$ 400</option>
+          <option value="dinamico">Site Dinâmico (HTML + JS) — R$ 750</option>
+          <option value="avancado">Site Avançado / Full Stack — A consultar</option>
+          <option value="outro">Outro / Não sei ainda</option>
+        </select>
+      </div>
+
+      <div class="form-grupo">
+        <label>Segmento do Negócio</label>
+        <select id="segmento">
+          <option value="">Selecione o segmento...</option>
+          <option value="restaurante">Restaurante / Lanchonete</option>
+          <option value="academia">Academia / Fitness</option>
+          <option value="livraria">Livraria</option>
+          <option value="cafeteria">Cafeteria</option>
+          <option value="esporte">Escola Esportiva</option>
+          <option value="salao">Salão / Barbearia</option>
+          <option value="clinica">Clínica / Consultório</option>
+          <option value="loja">Loja / E-commerce</option>
+          <option value="portfolio">Portfólio Pessoal</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+
+      <div class="form-grupo">
+        <label>Recursos Desejados (marque os que quiser)</label>
+        <div class="check-grupo" style="margin-top: 8px;">
+          <label class="check-item"><input type="checkbox" name="recursos" value="formulario" /> Formulário de contato</label>
+          <label class="check-item"><input type="checkbox" name="recursos" value="galeria" /> Galeria de fotos</label>
+          <label class="check-item"><input type="checkbox" name="recursos" value="mapa" /> Mapa / Localização</label>
+          <label class="check-item"><input type="checkbox" name="recursos" value="whatsapp" /> Botão WhatsApp</label>
+          <label class="check-item"><input type="checkbox" name="recursos" value="redes" /> Redes sociais</label>
+          <label class="check-item"><input type="checkbox" name="recursos" value="blog" /> Blog / Notícias</label>
+          <label class="check-item"><input type="checkbox" name="recursos" value="portfolio" /> Portfólio de obras</label>
+          <label class="check-item"><input type="checkbox" name="recursos" value="cardapio" /> Cardápio / Catálogo</label>
+        </div>
+      </div>
+
+      <div class="form-grupo">
+        <label>Prazo Desejado</label>
+        <div class="radio-grupo">
+          <label><input type="radio" name="prazo" value="urgente" /> Urgente (até 7 dias)</label>
+          <label><input type="radio" name="prazo" value="normal" checked /> Normal (7–21 dias)</label>
+          <label><input type="radio" name="prazo" value="flexivel" /> Flexível</label>
+        </div>
+      </div>
+
+      <div class="form-grupo">
+        <label>Descreva seu Projeto <span class="obrigatorio">*</span></label>
+        <textarea id="descricao" placeholder="Conte-me mais sobre o que você precisa." rows="5"></textarea>
+      </div>
+
+      <div class="form-grupo">
+        <label>Como nos encontrou?</label>
+        <select id="origem">
+          <option value="">Selecione...</option>
+          <option value="indicacao">Indicação de amigo</option>
+          <option value="google">Google</option>
+          <option value="instagram">Instagram</option>
+          <option value="linkedin">LinkedIn</option>
+          <option value="github">GitHub</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+
+      <button class="btn" onclick="enviar()" style="width: 100%; padding: 12px; font-size: 1rem;">
+        Enviar Mensagem →
+      </button>
+
+      <div class="aviso-sucesso" id="sucesso">
+        ✅ Mensagem enviada! Retornarei em até 24 horas.
+      </div>
+
+      <p style="color: #7a5a8a; font-size: 0.78rem; margin-top: 12px; text-align: center;">
+        Campos com <span class="obrigatorio">*</span> são obrigatórios. Seus dados não serão compartilhados.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Fernando Antonio Bacchiet — HTML & CSS · Ciência da Computação · UVV</p>
+  <p style="margin-top: 6px;">
+    <a href="../index.html">Home</a> ·
+    <a href="servicos.html">Serviços</a> ·
+    <a href="github.html">GitHub</a>
+  </p>
+</footer>
+
+<script>
+function enviar() {
+  const nome = document.getElementById('nome').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const telefone = document.getElementById('telefone').value.trim();
+  const horario = document.getElementById('horario').value;
+  const servico = document.getElementById('servico').value;
+  const descricao = document.getElementById('descricao').value.trim();
+
+  if (!nome || !email || !telefone || !horario || !servico || !descricao) {
+    alert('Por favor, preencha todos os campos obrigatórios (*).');
+    return;
+  }
+
+  const btn = document.querySelector('button');
+  btn.textContent = 'Enviando...';
+  btn.disabled = true;
+
+  setTimeout(function() {
+    btn.textContent = 'Enviado ✓';
+    document.getElementById('sucesso').style.display = 'block';
+  }, 1500);
+}
+</script>
+
+</body>
+</html>
